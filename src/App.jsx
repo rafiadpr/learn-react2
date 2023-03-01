@@ -8,6 +8,7 @@ import Member from "./pages/Member"
 import Book from "./pages/Book"
 import Borrow from "./pages/Borrow"
 import History from "./pages/History"
+import Gallery from "./pages/Gallery"
 
 function App (){
   return (
@@ -23,6 +24,7 @@ function App (){
         <Route path="Book" element={<Book/>}/>
         <Route path="Borrow" element={<Borrow/>}/>
         <Route path="History" element={<History/>}/>
+        <Route path="Gallery" element={<Gallery/>}/>
       </Routes>
     </div>
     </>
